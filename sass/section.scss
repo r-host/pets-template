@@ -134,6 +134,12 @@
 	.btn{
 		margin-right: 15px;
 	}
+  @media (max-width: 767px) {
+    width: 100%;
+   &.center, &.right{
+      width: 100%;
+    }
+  }
 }
 
 .content-wrap {
@@ -144,12 +150,6 @@
 }
 .content-wrap-40 {
     padding: 40px 0;
-}
-
-.overlap {
-    margin-top: -180px;
-    position: relative;
-    z-index: 2;
 }
 
 .img-video{

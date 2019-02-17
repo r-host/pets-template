@@ -262,6 +262,12 @@ IMAGE BOX
 	position: relative;
 	@extend .anim-shadow;
 	border: 1px solid lighten($color-body, 30%);
+	.media{
+		text-align: center;
+		a{
+			width: 100%;
+		}
+	}
 	.body-text{
 		padding: 20px 20px;
 		border-top: 1px solid lighten($color-body, 30%);
